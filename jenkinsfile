@@ -5,6 +5,11 @@ pipeline {
        steps {
          echo "Hello World"
        }
+       stage('Fuck!!!'){
+       steps {
+         echo "Hello mother-fucking World"
+         echo "get ready to be rumbled by the one and only, me!!"
+       }
     }
     
     }
