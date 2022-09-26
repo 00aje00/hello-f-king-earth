@@ -1,18 +1,18 @@
 pipeline {
     agent any
     stages {
-        stage('Build') {
+        stage('Build some shit!') {
             steps {
                 echo 'Build Step'
                 sleep 10
             }
         }
-        stage('Test') {
+        stage('Test who stepping?') {
             steps {
                 echo 'Test step'
             }
         }
-        stage('Deploy') {
+        stage('Deploy your mama') {
             steps {
                 echo 'Deploy Step'
                 sleep 10
