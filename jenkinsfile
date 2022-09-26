@@ -10,6 +10,19 @@ pipeline {
          echo "Hello mother-fucking World"
          echo "get ready to be rumbled by the one and only, me!!"
        }
+       stage('Building now'){
+       steps {
+         echo "We're building  y'all"
+       }
+       stage('Testing'){
+       steps {
+         echo "Test the hell out that mofo"
+       }
+       stage('Deploy! you dig?'){
+       steps {
+         echo "Deploy them bitches to the world"
+         echo "Bitch better have ma money"
+       }
     }
     
     }
